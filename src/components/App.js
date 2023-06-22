@@ -90,7 +90,7 @@ class App extends React.Component {
 			},
 			// State Managing the Themes
 			theme: {
-				themeList: ["Classic", "Dark"],
+				// themeList: ["Classic", "Dark"],
 				themeIndex: 0,
 			},
 		};

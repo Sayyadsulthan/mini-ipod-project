@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./assets/css/index.css";
-import App from "./components/stateful/App";
+import App from "./components/App";
 
 // Rendering the React App into the HTML DOM Element "root"
 ReactDOM.render(

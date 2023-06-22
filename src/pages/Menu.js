@@ -58,9 +58,10 @@ const Menu = (props) => {
 	let RenderMenu = "Will be rendered in the future";
 	// Main Menu
 	if (show === "menu") {
+		let num=0;
 		RenderMenu = menuArray.map((item) => {
 			return (
-				<div className={item} style={divStyling(item)} id="options">
+				<div className={item} style={divStyling(item)} id="options" key={num=num+1}>
 					<p style={styles.text}>{item}</p>
 					<img
 						src="https://cdn-icons-png.flaticon.com/512/81/81068.png"
